@@ -70,21 +70,23 @@ p:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media (max-width: 768px) 
+@media (max-width: 480px) 
 {
     body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 143vh;
+        height: 155vh;
         width: 100%;
     }   
+    body::before {
+
+        height: 155vh;
+        width: 100%;
+    }
 
     #sm3lk {
         font-size: 1.5rem;
     }
 
-    body::before {
-        height: 143vh;
-    }
 }
