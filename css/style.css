@@ -54,3 +54,18 @@ p:hover {
     cursor: pointer;    
     text-shadow: 0 0 5px #d4af37;
 }
+
+.audio {
+    background-color: transparent;
+    border: none;
+    width: 80%;
+}
+
+
+#sm3lk {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
